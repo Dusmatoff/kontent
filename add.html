@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Заполнение сайта товаром</title>
+    </head>
+    <body>
+        <div class="container header">
+            <div class="header-top d-flex page-header">
+                <div class="header-top__logo text-center">
+                    <a href="/"><p class="text-uppercase header-top__logotext">Умная поддержка интернет-магазинов под ключ</p></a>
+                </div>
+                <div class="header-top__phone">
+                    <a href="tel:88000000000">8 (800) 000-00-00</a>
+                </div>
+                <div class="header-top__login text-uppercase">
+                    <a href="#">войти</a> / <a href="#">зарегистрироваться</a>
+                </div>
+            </div>
+            <ul class="header-menu">
+                <li><a href="/"><img class="page-header__logo" src="assets/img/logo.svg" alt="Kontent Expert" /></a></li>
+                <li class="menu01">
+                    <a href="/develop.html">
+                        <svg class="menu-svg menu-svg1" viewBox="0 0 188 195" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g id="#6fb281ff">
+                                <path fill="#dfdfdf" opacity="1.00" d=" M 41.33 0.88 C 88.73 43.39 135.81 86.26 183.15 128.85 C 184.14 129.73 185.02 130.73 185.86 131.76 C 186.40 131.91 187.47 132.21 188.00 132.37 L 188.00 133.56 C 184.31 133.94 180.90 135.44 177.38 136.52 C 118.34 155.79 59.27 175.02 0.23 194.31 C 13.79 129.80 27.69 65.37 41.33 0.88 Z" />
+                            </g>
+                        </svg>
+                        <img class="menu-icon" src="assets/img/menu01-icon.png" alt="">
+                        Разработка структуры<br> каталога 
+                    </a>
+                </li>
+                <li class="menu02">
+                    <a href="/add.html">
+                        <svg class="menu-svg menu-svg2" viewBox="0 0 193 193" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g id="#f6e969ff">
+                                <path fill="#f6e969" opacity="1.00" d=" M 0.45 32.74 C 53.72 22.12 106.99 11.54 160.26 0.95 C 170.87 54.22 181.48 107.50 192.05 160.78 C 141.36 170.83 90.68 180.95 39.99 191.01 C 37.81 191.48 35.40 191.51 33.60 193.00 L 32.31 193.00 C 21.71 139.58 11.05 86.17 0.45 32.74 Z" />
+                            </g>
+                        </svg>
+                        <img class="menu-icon" src="assets/img/menu02-icon.png" alt="">
+                        Заполнение товаром 
+                    </a>
+                </li>
+                <li class="menu03">
+                    <a href="/copywriting.html">
+                        <svg  class="menu-svg menu-svg3" viewBox="0 0 199 186" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g id="#ef9d61ff">
+                                <path fill="#dfdfdf" opacity="1.00" d=" M 119.36 2.37 C 120.00 1.52 120.83 1.12 121.87 1.15 C 147.27 0.82 172.67 0.40 198.07 0.10 C 193.82 60.39 189.56 120.67 185.35 180.96 C 185.21 182.65 184.87 184.31 184.66 186.00 L 184.24 186.00 C 184.34 185.85 184.54 185.54 184.63 185.38 C 127.10 167.66 69.59 149.82 12.07 132.05 C 8.16 130.75 4.12 129.85 0.34 128.17 L 0.00 128.96 L 0.00 128.24 C 1.71 126.87 3.21 125.28 4.68 123.66 C 42.89 83.21 81.17 42.83 119.36 2.37 Z" />
+                            </g>
+                        </svg>
+                        <img class="menu-icon" src="assets/img/menu03-icon.png" alt="">
+                        Копирайтинг 
+                    </a>
+                </li>
+                <li class="menu04">
+                    <a href="/analytic.html">
+                        <svg class="menu-svg menu-svg4" viewBox="0 0 197 193" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g id="#80c7c9ff">
+                                <path fill="#dfdfdf" opacity="1.00" d=" M 0.69 157.74 C 36.34 105.44 71.97 53.12 107.65 0.83 C 137.26 64.73 166.89 128.61 196.50 192.50 C 131.23 180.92 65.96 169.34 0.69 157.74 Z" />
+                            </g>
+                        </svg>
+                        <img class="menu-icon" src="assets/img/menu04-icon.png" alt="">
+                        Пост-Аналитика 
+                    </a>
+                </li>
+                <li class="menu05">
+                    <a href="/photo-video.html">
+                        <svg class="menu-svg menu-svg5" viewBox="0 0 92 93" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g id="#ef9d61ff">
+                                <path fill="#dfdfdf" opacity="1.00" d=" M 44.34 93.00 C 44.63 62.28 44.23 31.50 44.53 0.77 C 56.92 0.34 69.37 5.18 78.19 13.90 C 86.40 21.85 91.30 32.95 92.00 44.33 L 92.00 50.18 C 90.88 62.27 85.15 73.97 75.77 81.78 C 67.26 88.95 55.94 93.33 44.78 92.51 C 44.76 92.63 44.73 92.88 44.71 93.00 L 44.34 93.00 Z" />
+                            </g>
+                        </svg>
+                        <img class="menu-icon" src="assets/img/menu05-icon.png" alt="">
+                        Фото / Видео 
+                    </a>
+                </li>
+                <li class="menu06">
+                    <a href="/price.html">
+                        <svg class="menu-svg menu-svg6" viewBox="0 0 228 184" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g id="#ee907bff">
+                                <path fill="#dfdfdf" opacity="1.00" d=" M 0.69 74.39 C 61.60 49.84 122.24 24.64 183.17 0.17 C 197.79 36.40 212.82 72.46 227.46 108.68 L 228.00 108.07 L 228.00 108.53 C 225.50 110.01 222.76 111.00 220.08 112.07 C 162.75 135.46 105.42 158.85 48.10 182.24 C 47.20 182.67 46.41 183.26 45.74 184.00 L 45.33 184.00 C 30.65 147.39 15.30 111.03 0.69 74.39 Z" />
+                            </g>
+                        </svg>
+                        <img class="menu-icon" src="assets/img/menu06-icon.png" alt="">
+                        Цены и тарифы 
+                    </a>
+                </li>
+                <li class="menu07">
+                    <a href="/free-instructions.html">
+                        <svg class="menu-svg menu-svg7" viewBox="0 0 182 182" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g id="#f4c1c8ff">
+                                <path fill="#dfdfdf" opacity="1.00" d=" M 76.52 1.78 C 95.39 -1.21 115.20 1.81 132.18 10.61 C 151.53 20.48 167.09 37.53 175.07 57.74 C 183.33 78.30 183.61 101.90 175.89 122.67 C 168.89 141.77 155.19 158.30 137.78 168.81 C 121.81 178.56 102.76 183.06 84.12 181.63 C 63.11 180.18 42.80 170.97 27.75 156.27 C 11.96 141.03 2.01 119.87 0.51 97.96 C -1.16 76.71 5.08 54.96 17.72 37.80 C 31.59 18.69 53.19 5.43 76.52 1.78 Z" />
+                            </g>
+                        </svg>
+                        <img class="menu-icon" src="assets/img/menu07-icon.png" alt="">
+                        Бесплатные инструкции 
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-fluid fixed-header" id="fixed-header">
+            <div class="container">
+                <div class="row">
+                    <div class="fixed-header__logo">
+                        <a href="/">kontent.expert <span class="fixed-header__logotext">Умная поддержка интернет-магазинов под ключ</span></a>
+                    </div>
+                    <div class="fixed-header__login text-uppercase">
+                        <a href="#">войти</a> / <a href="#">зарегистрироваться</a>
+                    </div>
+                    <div class="fixed-header__phone">
+                        <a href="tel:88000000000">8 (800) 000-00-00</a>
+                    </div>
+                    <div class="fixed-header__menu__icon">
+                        <span class="fixed-header__menu__text">Меню <img src="assets/img/fixed-header-menu.png" alt="" class="fixed-header__menu-static"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="fixed-header__menu">
+                <ul class="header-menu">
+                    <li class="menu01 animated bounceInDown">
+                        <a href="/develop.html">
+                            <svg class="menu-svg menu-svg1" viewBox="0 0 188 195" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#6fb281ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 41.33 0.88 C 88.73 43.39 135.81 86.26 183.15 128.85 C 184.14 129.73 185.02 130.73 185.86 131.76 C 186.40 131.91 187.47 132.21 188.00 132.37 L 188.00 133.56 C 184.31 133.94 180.90 135.44 177.38 136.52 C 118.34 155.79 59.27 175.02 0.23 194.31 C 13.79 129.80 27.69 65.37 41.33 0.88 Z" />
+                                </g>
+                            </svg>
+                            <img class="menu-icon" src="assets/img/menu01-icon.png" alt="">
+                            Разработка структуры<br> каталога 
+                        </a>
+                    </li>
+                    <li class="menu02 animated bounceInDown">
+                        <a href="/add.html">
+                            <svg class="menu-svg menu-svg2" viewBox="0 0 193 193" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#f6e969ff">
+                                    <path fill="#f6e969" opacity="1.00" d=" M 0.45 32.74 C 53.72 22.12 106.99 11.54 160.26 0.95 C 170.87 54.22 181.48 107.50 192.05 160.78 C 141.36 170.83 90.68 180.95 39.99 191.01 C 37.81 191.48 35.40 191.51 33.60 193.00 L 32.31 193.00 C 21.71 139.58 11.05 86.17 0.45 32.74 Z" />
+                                </g>
+                            </svg>
+                            <img class="menu-icon" src="assets/img/menu02-icon.png" alt="">
+                            Заполнение товаром 
+                        </a>
+                    </li>
+                    <li class="menu03 animated bounceInDown">
+                        <a href="/copywriting.html">
+                            <svg  class="menu-svg menu-svg3" viewBox="0 0 199 186" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#ef9d61ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 119.36 2.37 C 120.00 1.52 120.83 1.12 121.87 1.15 C 147.27 0.82 172.67 0.40 198.07 0.10 C 193.82 60.39 189.56 120.67 185.35 180.96 C 185.21 182.65 184.87 184.31 184.66 186.00 L 184.24 186.00 C 184.34 185.85 184.54 185.54 184.63 185.38 C 127.10 167.66 69.59 149.82 12.07 132.05 C 8.16 130.75 4.12 129.85 0.34 128.17 L 0.00 128.96 L 0.00 128.24 C 1.71 126.87 3.21 125.28 4.68 123.66 C 42.89 83.21 81.17 42.83 119.36 2.37 Z" />
+                                </g>
+                            </svg>
+                            <img class="menu-icon" src="assets/img/menu03-icon.png" alt="">
+                            Копирайтинг 
+                        </a>
+                    </li>
+                    <li class="menu04 animated bounceInDown">
+                        <a href="/analytic.html">
+                            <svg class="menu-svg menu-svg4" viewBox="0 0 197 193" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#80c7c9ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 0.69 157.74 C 36.34 105.44 71.97 53.12 107.65 0.83 C 137.26 64.73 166.89 128.61 196.50 192.50 C 131.23 180.92 65.96 169.34 0.69 157.74 Z" />
+                                </g>
+                            </svg>
+                            <img class="menu-icon" src="assets/img/menu04-icon.png" alt="">
+                            Пост-Аналитика 
+                        </a>
+                    </li>
+                    <li class="menu05 animated bounceInDown">
+                        <a href="/photo-video.html">
+                            <svg class="menu-svg menu-svg5" viewBox="0 0 92 93" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#ef9d61ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 44.34 93.00 C 44.63 62.28 44.23 31.50 44.53 0.77 C 56.92 0.34 69.37 5.18 78.19 13.90 C 86.40 21.85 91.30 32.95 92.00 44.33 L 92.00 50.18 C 90.88 62.27 85.15 73.97 75.77 81.78 C 67.26 88.95 55.94 93.33 44.78 92.51 C 44.76 92.63 44.73 92.88 44.71 93.00 L 44.34 93.00 Z" />
+                                </g>
+                            </svg>
+                            <img class="menu-icon" src="assets/img/menu05-icon.png" alt="">
+                            Фото / Видео 
+                        </a>
+                    </li>
+                    <li class="menu06 animated bounceInDown">
+                        <a href="/price.html">
+                            <svg class="menu-svg menu-svg6" viewBox="0 0 228 184" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#ee907bff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 0.69 74.39 C 61.60 49.84 122.24 24.64 183.17 0.17 C 197.79 36.40 212.82 72.46 227.46 108.68 L 228.00 108.07 L 228.00 108.53 C 225.50 110.01 222.76 111.00 220.08 112.07 C 162.75 135.46 105.42 158.85 48.10 182.24 C 47.20 182.67 46.41 183.26 45.74 184.00 L 45.33 184.00 C 30.65 147.39 15.30 111.03 0.69 74.39 Z" />
+                                </g>
+                            </svg>
+                            <img class="menu-icon" src="assets/img/menu06-icon.png" alt="">
+                            Цены и тарифы 
+                        </a>
+                    </li>
+                    <li class="menu07 animated bounceInDown">
+                        <a href="/free-instructions.html">
+                            <svg class="menu-svg menu-svg7" viewBox="0 0 182 182" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#f4c1c8ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 76.52 1.78 C 95.39 -1.21 115.20 1.81 132.18 10.61 C 151.53 20.48 167.09 37.53 175.07 57.74 C 183.33 78.30 183.61 101.90 175.89 122.67 C 168.89 141.77 155.19 158.30 137.78 168.81 C 121.81 178.56 102.76 183.06 84.12 181.63 C 63.11 180.18 42.80 170.97 27.75 156.27 C 11.96 141.03 2.01 119.87 0.51 97.96 C -1.16 76.71 5.08 54.96 17.72 37.80 C 31.59 18.69 53.19 5.43 76.52 1.78 Z" />
+                                </g>
+                            </svg>
+                            <img class="menu-icon" src="assets/img/menu07-icon.png" alt="">
+                            Бесплатные инструкции 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile-header">
+            <div class="mobile-header__top">
+                <div class="fixed-header__logo">
+                    <a href="/">kontent.expert </a>
+                </div>
+                <div class="mobile-header__menu__icon">
+                    <span class="mobile-header__menu__text">Меню <img src="assets/img/fixed-header-menu.png" alt="" class="mobile-header__menu-static"></span>
+                </div>
+            </div>
+            <div class="mobile-header__bottom">
+                <ul class="mobile-header__menu">
+                    <li class="mobile-menu01 animated bounceInLeft">
+                        <a href="/develop.html">
+                            <svg class="mobile-menu-svg menu-svg1" viewBox="0 0 188 195" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#6fb281ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 41.33 0.88 C 88.73 43.39 135.81 86.26 183.15 128.85 C 184.14 129.73 185.02 130.73 185.86 131.76 C 186.40 131.91 187.47 132.21 188.00 132.37 L 188.00 133.56 C 184.31 133.94 180.90 135.44 177.38 136.52 C 118.34 155.79 59.27 175.02 0.23 194.31 C 13.79 129.80 27.69 65.37 41.33 0.88 Z" />
+                                </g>
+                            </svg>
+                            <img class="mobile-menu-icon" src="assets/img/menu01-icon.png" alt="">
+                            <span>Разработка структуры каталога </span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu02 animated bounceInLeft">
+                        <a href="/add.html">
+                            <svg class="mobile-menu-svg menu-svg2" viewBox="0 0 193 193" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#f6e969ff">
+                                    <path fill="#f6e969" opacity="1.00" d=" M 0.45 32.74 C 53.72 22.12 106.99 11.54 160.26 0.95 C 170.87 54.22 181.48 107.50 192.05 160.78 C 141.36 170.83 90.68 180.95 39.99 191.01 C 37.81 191.48 35.40 191.51 33.60 193.00 L 32.31 193.00 C 21.71 139.58 11.05 86.17 0.45 32.74 Z" />
+                                </g>
+                            </svg>
+                            <img class="mobile-menu-icon" src="assets/img/menu02-icon.png" alt="">
+                            <span>Заполнение товаром </span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu03 animated bounceInLeft">
+                        <a href="/copywriting.html">
+                            <svg  class="mobile-menu-svg menu-svg3" viewBox="0 0 199 186" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#ef9d61ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 119.36 2.37 C 120.00 1.52 120.83 1.12 121.87 1.15 C 147.27 0.82 172.67 0.40 198.07 0.10 C 193.82 60.39 189.56 120.67 185.35 180.96 C 185.21 182.65 184.87 184.31 184.66 186.00 L 184.24 186.00 C 184.34 185.85 184.54 185.54 184.63 185.38 C 127.10 167.66 69.59 149.82 12.07 132.05 C 8.16 130.75 4.12 129.85 0.34 128.17 L 0.00 128.96 L 0.00 128.24 C 1.71 126.87 3.21 125.28 4.68 123.66 C 42.89 83.21 81.17 42.83 119.36 2.37 Z" />
+                                </g>
+                            </svg>
+                            <img class="mobile-menu-icon" src="assets/img/menu03-icon.png" alt="">
+                            <span>Копирайтинг </span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu04 animated bounceInLeft">
+                        <a href="/analytic.html">
+                            <svg class="mobile-menu-svg menu-svg4" viewBox="0 0 197 193" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#80c7c9ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 0.69 157.74 C 36.34 105.44 71.97 53.12 107.65 0.83 C 137.26 64.73 166.89 128.61 196.50 192.50 C 131.23 180.92 65.96 169.34 0.69 157.74 Z" />
+                                </g>
+                            </svg>
+                            <img class="mobile-menu-icon" src="assets/img/menu04-icon.png" alt="">
+                            <span>Пост-Аналитика </span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu05 animated bounceInLeft">
+                        <a href="/photo-video.html">
+                            <svg class="mobile-menu-svg menu-svg5" viewBox="0 0 92 93" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#ef9d61ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 44.34 93.00 C 44.63 62.28 44.23 31.50 44.53 0.77 C 56.92 0.34 69.37 5.18 78.19 13.90 C 86.40 21.85 91.30 32.95 92.00 44.33 L 92.00 50.18 C 90.88 62.27 85.15 73.97 75.77 81.78 C 67.26 88.95 55.94 93.33 44.78 92.51 C 44.76 92.63 44.73 92.88 44.71 93.00 L 44.34 93.00 Z" />
+                                </g>
+                            </svg>
+                            <img class="mobile-menu-icon" src="assets/img/menu05-icon.png" alt="">
+                            <span>Фото / Видео </span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu06 animated bounceInLeft">
+                        <a href="/price.html">
+                            <svg class="mobile-menu-svg menu-svg6" viewBox="0 0 228 184" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#ee907bff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 0.69 74.39 C 61.60 49.84 122.24 24.64 183.17 0.17 C 197.79 36.40 212.82 72.46 227.46 108.68 L 228.00 108.07 L 228.00 108.53 C 225.50 110.01 222.76 111.00 220.08 112.07 C 162.75 135.46 105.42 158.85 48.10 182.24 C 47.20 182.67 46.41 183.26 45.74 184.00 L 45.33 184.00 C 30.65 147.39 15.30 111.03 0.69 74.39 Z" />
+                                </g>
+                            </svg>
+                            <img class="mobile-menu-icon" src="assets/img/menu06-icon.png" alt="">
+                            <span>Цены и тарифы </span>
+                        </a>
+                    </li>
+                    <li class="mobile-menu07 animated bounceInLeft">
+                        <a href="/free-instructions.html">
+                            <svg class="mobile-menu-svg menu-svg7" viewBox="0 0 182 182" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="#f4c1c8ff">
+                                    <path fill="#dfdfdf" opacity="1.00" d=" M 76.52 1.78 C 95.39 -1.21 115.20 1.81 132.18 10.61 C 151.53 20.48 167.09 37.53 175.07 57.74 C 183.33 78.30 183.61 101.90 175.89 122.67 C 168.89 141.77 155.19 158.30 137.78 168.81 C 121.81 178.56 102.76 183.06 84.12 181.63 C 63.11 180.18 42.80 170.97 27.75 156.27 C 11.96 141.03 2.01 119.87 0.51 97.96 C -1.16 76.71 5.08 54.96 17.72 37.80 C 31.59 18.69 53.19 5.43 76.52 1.78 Z" />
+                                </g>
+                            </svg>
+                            <img class="mobile-menu-icon" src="assets/img/menu07-icon.png" alt="">
+                            <span>Бесплатные инструкции</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="fixed-header__login text-uppercase">
+                    <a href="#">войти</a> / <a href="#">зарегистрироваться</a>
+                </div>
+                <br>
+                <div class="fixed-header__phone">
+                    <a href="tel:88000000000">8 (800) 000-00-00</a>
+                </div>
+            </div>
+        </div>
+        <div class="container pdt30">
+            <div class="breadcrumbs">
+                <a href="/">Главная</a> <span>/  Заполнение товаром</span>
+            </div>
+        </div>
+        <div class="container">
+            <p class="section-title">Заполнение сайта товаром</p>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="blue-title">Карточка товара – это самая важная страница вашего сайта.</p>
+                        <p>Маленькая, на первый взгляд незаметная, среди множества подобных, она обладает <b>огромной скрытой силой</b>. Она представляет миру товар из вашего магазина. Она <b>приносит деньги</b> и способна на то, чтобы зарабатывать ещё больше.</p>
+                    </div>
+                    <div class="col-6 text-center bgAnimation">
+                        <img class="wow slideInRight bgAnimationFromRight" data-wow-duration="0.5s" data-wow-delay="0.5s" src="assets/img/yellow-bg.png" alt="">
+                        <img src="assets/img/add-pic1.png" class="fluid-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid dash mgt50"></div>
+        <div class="container-fluid">
+            <div class="container text-center">
+                <div class="marker-title five-steps-title text-uppercase mgt50">
+                    Закажите разработку интернет-каталога товаров
+                </div>
+                <br>
+                <div class="marker-title five-steps-title text-uppercase ">
+                    у профессионалов! 
+                </div>
+            </div>
+            <div class="container text-center row">
+                <div class="pen"><img src="assets/img/pen.png" alt=""></div>
+                <div class="order">
+                    <p class="blue-title">Мы занимаемся этим много лет. У нас есть опыт работы как с маленькими магазинами, так и с большими интернет-площадками</p>
+                    <form action="?" class="order-form mgt50">
+                        <label class="form-label">Ваше имя* <input type="text" name="name" class="form-input"></label>
+                        <label class="form-label">Телефон* <input type="text" name="phone" class="form-input"></label>
+                        <label class="checkbox"><input type="checkbox" checked> Я согласен на обработку персональных данных</label>
+                        <input type="submit" value="Отправить" class="red-btn form-submit">
+                    </form>
+                </div>
+                <div class="stamp">
+                    <img src="assets/img/stamp.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid dash mgt50"></div>
+        <div class="container-fluid pdb50">
+            <div class="container text-right">
+                <div class="marker-title five-steps-title text-uppercase mgt50">
+                    Наш сервис работает по правилу 5X (пять икс)
+                </div>
+                <p class="subtitle text-uppercase">Идея правила в том, чтобы создавать каталоги товаров в пять рад лучше,<br> чем у конкурентов</p>
+                <div class="d-flex five-x pdt40 text-center">
+                    <div class="five-x_item five-x-one">
+                        <img src="assets/img/x-one.png" alt="">
+                        <p class="five-x_item__number">1</p>
+                        <span class="five-x_item__text">Аналитика</span>
+                    </div>
+                    <div class="five-x_item five-x_arrow">
+                        <img src="assets/img/five-x-arrow-down.png" alt="">
+                    </div>
+                    <div class="five-x_item five-x-two">
+                        <img src="assets/img/x-two.png" alt="">
+                        <p class="five-x_item__number">2</p>
+                        <span class="five-x_item__text">Расширяем и чистим как никто не чистит</span>
+                    </div>
+                    <div class="five-x_item five-x_arrow">
+                        <img src="assets/img/five-x-arrow-up.png" alt="">
+                    </div>
+                    <div class="five-x_item five-x-three">
+                        <img src="assets/img/x-three.png" alt="">
+                        <p class="five-x_item__number">3</p>
+                        <span class="five-x_item__text">Анализируем конкурентов лучше всех</span>
+                    </div>
+                    <div class="five-x_item five-x_arrow">
+                        <img src="assets/img/five-x-arrow-down.png" alt="">
+                    </div>
+                    <div class="five-x_item five-x-four">
+                        <img src="assets/img/x-four.png" alt="">
+                        <p class="five-x_item__number">4</p>
+                        <span class="five-x_item__text">Разбиваем запросы руками, не ленимся</span>
+                    </div>
+                    <div class="five-x_item five-x_arrow">
+                        <img src="assets/img/five-x-arrow-up.png" alt="">
+                    </div>
+                    <div class="five-x_item five-x-five">
+                        <img src="assets/img/x-five.png" alt="">
+                        <p class="five-x_item__number">5</p>
+                        <span class="five-x_item__text">Тщательно настраиваем навигацию, используя только лучшее от конкурентов!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer">
+            <div class="container">
+                <div class="d-flex">
+                    <div class="footer-logo">
+                        <a class="footer-logo-img" href="/"><img src="assets/img/logo.svg" width="130px" alt=""/> <span class="footer-logo-text">Умная поддержка<br>интернет-магазинов<br>под ключ</span></a>
+                    </div>
+                    <div class="footer-links">
+                        <ul class="footer-menu">
+                            <li><a href="#"><img src="assets/img/footer-menu1-1.png"/> Разработкаструктуры каталога</a></li>
+                            <li><a href="#"><img src="assets/img/footer-menu1-2.png"/> Заполнениетоваром</a></li>
+                            <li><a href="#"><img src="assets/img/footer-menu1-3.png"/> Копирайтинг</a></li>
+                            <li><a href="#"><img src="assets/img/footer-menu1-4.png"/> Пост-аналитика</a></li>
+                            <li><a href="#"><img src="assets/img/footer-menu1-5.png"/> Фото ивидеоуслуги</a></li>
+                            <li><a href="#"><img src="assets/img/footer-menu1-6.png"/> Цены и тарифы</a></li>
+                            <li><a href="#"><img src="assets/img/footer-menu1-7.png"/> Бесплатные инструкции</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contacts text-right">
+                        <div class="footer-contacts__phone">
+                            <a href="tel:88000000000">8 (800) 000-00-00</a>
+                        </div>
+                        <div class="footer-contacts__login text-uppercase">
+                            <img src="assets/img/login-icon.png" alt="" />
+                            <a href="#">войти</a> / <a href="#">зарегистрироваться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
